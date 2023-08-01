@@ -20,8 +20,11 @@ Un caso común de presionar tecla sería un juego: si estas desarrollando un jue
 ### Conceptos importantes a tener en cuenta
 
 -Elemento target: hace referencia al elemento que va a recibir el evento. Este elemento va a decirle al navegador que ahí ha ocurrido un evento y que como lo maneja.
+
 -Trigger: es un desencadenante. Es la acción que va a desencadenar un evento. 
+
 -Event Handler: Handler significa el que maneja. Hace referencia a la función que se ejecuta cuando ocurre un evento. Nosotros vamos a asociar en nuestro código un tipo de evento con una función para decirle al navegador que cuando ocurra un evento específico en un elemento específico vamos a llamar a una función específica. Es decir, asociamos, el elemento, el evento y la función que lo va a manejar si ocurre. 
+
 -Event Listener: es la asociación entre un evento específico en un elemento y la función que lo va a manejar. Cuando creamos un event listener estamos "escuchando" ese evento.
 Event handler y event listener se suelen utilizar de manera equivalente.
 
