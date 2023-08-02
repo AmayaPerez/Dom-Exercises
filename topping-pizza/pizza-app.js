@@ -73,7 +73,7 @@ console.log(enlace[0].setAttribute('href', 'www.bing.com'));//para actualizar el
 //CLASES
 const firstTopping = document.querySelector('.topping');
 console.log(firstTopping);
-console.log(firstTopping.classList);//cada uno de los elementos que seleccionamos del DOM, tiene una propiedad llamada classList, es decir lista de todas las clases que tiene ese elemento en el DOM//cada uno de los elementos que seleccionamos del DOM, tiene una propiedad llamada classList, es decir lista de todas las clases que tiene ese elemento en el DOM
+console.log(firstTopping.classList);//cada uno de los elementos que seleccionamos del DOM, tiene una propiedad llamada classList, es decir lista de todas las clases que tiene ese elemento en el DOM
 
 //Agregar una clase
 firstTopping.classList.add('mi-clase');
